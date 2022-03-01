@@ -1,0 +1,13 @@
+.pagination .ant-pagination-options{
+    display: none;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    color: #000000A6;
+    font-family: 'Inter-Regular';
+    opacity: 95%;
+    font-size: 12px;
+}

@@ -1,0 +1,16 @@
+.wrapper{
+max-width: 1010px;
+margin: 0 auto;
+}
+.spin{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.alert{
+    text-align: center;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+}
