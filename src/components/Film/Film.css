@@ -1,57 +1,78 @@
 .card {
-    width: 454px;
-    height: 281px;
-    display: flex;
-    margin-bottom: 34px;
-    box-shadow: 0px 4px 12px 0px #00000026;
-    padding-top: 1px;
-    padding-left: 1px;
+  max-width: 454px;
+  /*height: 281px;*/
+  display: flex;
+  margin-bottom: 34px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  padding-top: 1px;
+  padding-left: 1px;
+}
+.card__wrapper {
+  width: 269px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
+.title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
 }
-.card__wrapper{
-    width: 269px;
-    margin-left: 20px;
-    margin-right: 20px;
+.title {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  line-height: 28px;
+}
+.vote {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  font-size: 12px;
+  border-radius: 100%;
+  padding: 5px 8px;
+  width: 30px;
+  align-self: flex-start;
+}
+.description__text {
+  font-family: 'Inter-Regular';
+  font-size: 12px;
+  line-height: 22px;
 }
 
-.title__wrapper{
-    margin-top: 12px;
+.date {
+  font-size: 12px;
+  color: #827e7e;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
-.title{
-    
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-      
+.genre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-width: 220px;
 }
-.description__text{
-    font-size: 12px;
-    line-height: 22px;
+.genre span {
+  /*display: flex;
+    flex-direction: row;*/
+  border: 1px solid #d9d9d9;
+  color: #000000a6;
+  /*box-shadow: 0px 4px 12px 0px #00000026;*/
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: #fafafa;
+  padding: 1px 3px;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
-.date__wrapper{
-margin-top: 7px;
-margin-bottom: 7px;
+.description__wrapper {
+  margin-top: 7px;
+  min-height: 140px;
 }
-.date{
-  font-size: 12px;  
-  color: #827E7E;
-
-}
-.ganre-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    min-width: 220px;
-}
-.ganre{
-    border: 1px solid #d9d9d9;
-    color: #000000A6;
-    /*box-shadow: 0px 4px 12px 0px #00000026;*/
-    font-size: 12px;
-    border-radius: 2px;
-    background-color: #fafafa;
-    padding: 1px 3px;
-    margin-right: 4px;
-    margin-bottom: 4px;
+.card .stars {
+  margin-top: auto;
+  font-size: 15px;
+  margin-bottom: 20px;
 }

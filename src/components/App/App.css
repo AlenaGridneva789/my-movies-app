@@ -1,16 +1,16 @@
-.wrapper{
-max-width: 1010px;
-margin: 0 auto;
+.wrapper {
+  max-width: 1010px;
+  margin: 0 auto;
 }
-.spin{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.spin {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
-.alert{
-    text-align: center;
+.alert {
+  text-align: center;
 }
-.tabs{
-    display: flex;
-    align-items: center;
+.tabs {
+  display: flex;
+  align-items: center;
 }

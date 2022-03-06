@@ -1,5 +1,6 @@
-.movie-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.movie-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
